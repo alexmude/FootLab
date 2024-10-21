@@ -1,4 +1,4 @@
--- Table: User
+-- Table: User.
 CREATE TABLE User (
     user_id INTEGER PRIMARY KEY,
     user_name TEXT,
@@ -79,7 +79,7 @@ CREATE TABLE Trophy (
     FOREIGN KEY (team_id) REFERENCES Team(team_id)
 );
 
--- Table: Represents (Relationship between Player and Team)
+-- Table: Represents (Relationship between Player and Team).
 CREATE TABLE Represents (
     player_id INTEGER,
     team_id INTEGER,

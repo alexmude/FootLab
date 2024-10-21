@@ -1,4 +1,4 @@
-/* query that lists players who have won a golden boot*/
+/* query that lists players who have won a golden boot.*/
 SELECT 
     first_name || ' ' || last_name AS full_name
 FROM 

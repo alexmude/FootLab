@@ -1,12 +1,12 @@
 # FootLab
-database to store informative data about soccer players
+database to store informative data about soccer players.
 
-Project1 submission by Alexander Muderhwa
+Project1 submission by Alexander Muderhwa.
 
 ## How to run it 
 
 '''
-Download the project.db database and put it in the root folder 
+Download the project.db database and put it in the root folder.
 Open the project.db database by clicking the Open project button or open database button on db Browser and follow the steps described below to run implemmented queries. 
 '''
 

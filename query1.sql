@@ -1,4 +1,4 @@
-/* query that list the player’s full name, the team they represent, and the type of team*/
+/* query that list the player’s full name, the team they represent, and the type of team.*/
 SELECT 
     p.first_name || ' ' || p.last_name AS full_name,
     t.name AS team_name,
@@ -9,4 +9,3 @@ JOIN
     Represents r ON p.player_id = r.player_id
 JOIN 
     Team t ON r.team_id = t.team_id;
-    

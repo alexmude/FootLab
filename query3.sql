@@ -1,4 +1,4 @@
-/* query that list all players that scored more than 5 goals and have less than 3 yellow cards*/
+/* query that list all players that scored more than 5 goals and have less than 3 yellow cards.*/
 SELECT 
     p.first_name || ' ' || p.last_name AS full_name, 
     s.goals, 
