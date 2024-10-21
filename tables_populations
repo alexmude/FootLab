@@ -21,7 +21,7 @@ INSERT INTO User (user_id, user_name, password, type) VALUES
 (19, 'coach_prodigy', 'userpass19', 'coach'),
 (20, 'manager_elite', 'userpass20', 'manager');
 
--- Table: Injury
+-- Table: Injury.
 INSERT INTO Injury (injury_id, name, type, date, time, cause, time_to_heal, game, field_area) VALUES 
 (1, 'Hamstring Strain', 'Muscle', '2024-01-15', '15:30', 'Overexertion', '3 weeks', 'Premier League', 'Right Leg'),
 (2, 'ACL Tear', 'Ligament', '2023-10-22', '14:00', 'Contact', '6 months', 'Champions League', 'Left Knee'),
