@@ -43,7 +43,7 @@ INSERT INTO Injury (injury_id, name, type, date, time, cause, time_to_heal, game
 (18, 'MCL Sprain', 'Ligament', '2023-11-18', '16:45', 'Tackle', '6 weeks', 'La Liga', 'Right Knee'),
 (19, 'Concussion', 'Head', '2024-03-15', '17:00', 'Collision', '2 weeks', 'Bundesliga', 'Head');
 
--- Table: Player
+-- Table: Player.
 INSERT INTO Player (player_id, first_name, last_name, user_id, surname, description, image, date_of_birth, news) VALUES 
 (1, 'Lionel', 'Messi', 2, 'Messi', 'Argentinian forward', 'messi.jpg', '1987-06-24', 'https://messi.com'),
 (2, 'Cristiano', 'Ronaldo', 3, 'Ronaldo', 'Portuguese forward', 'ronaldo.jpg', '1985-02-05', 'https://ronaldo.com'),
@@ -65,7 +65,7 @@ INSERT INTO Player (player_id, first_name, last_name, user_id, surname, descript
 (18, 'Romelu', 'Lukaku', 19, 'Lukaku', 'Belgian forward', 'lukaku.jpg', '1993-05-13', 'https://lukaku.com'),
 (19, 'Gareth', 'Bale', 20, 'Bale', 'Welsh forward', 'bale.jpg', '1989-07-16', 'https://bale.com');
 
--- table: Team
+-- table: Team.
 INSERT INTO Team (team_id, name, type) VALUES 
 (1, 'Barcelona', 'club'),
 (2, 'Real Madrid', 'club'),

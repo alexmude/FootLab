@@ -1,4 +1,4 @@
-/* Query that categorizes players based on their goal-scoring performance  */
+/* Query that categorizes players based on their goal-scoring performance .*/
 SELECT 
     p.first_name || ' ' || p.last_name AS full_name,
     s.goals,
