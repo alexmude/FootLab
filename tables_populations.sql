@@ -1,4 +1,4 @@
--- Table: User.
+-- Table: User
 INSERT INTO User (user_id, user_name, password, type) VALUES 
 (1, 'admin_user', 'userpass1', 'admin'),
 (2, 'manager01', 'userpass2', 'manager'),
